@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 public partial class Employee
 {
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public int Age { get; set; }
-    public double BaseSalary { get; set; }
+    public string FirstName ;
+    public string LastName ;
+    public int Age ;
+    public double BaseSalary ;
 }
