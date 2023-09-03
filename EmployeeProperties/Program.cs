@@ -15,7 +15,7 @@ class Program
         employee.BaseSalary = 50000;
 
         double salary = employee.CalculateSalary();
-        Console.WriteLine($"Employee {employee.FirstName} {employee.LastName} earns a salary of ${salary}");
+        Console.WriteLine("Employee " + employee.FirstName +""+ employee.LastName +"earns a salary of "+"$"+salary);
         Console.ReadLine();
     }
 }
